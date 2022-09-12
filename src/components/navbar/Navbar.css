@@ -15,7 +15,7 @@
     align-items: center;
 }
 .navbar-menu .logo{
-    width: 60px;
+    width: 70px;
 }
 .main-navbar{
     display: flex;
@@ -24,10 +24,10 @@
 .main-navbar .btn-link{
     display: block;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 400;
     color: #fff;
-    padding: 16px 30px;
+    padding: 20px 30px;
     transition: background-color 0.5s ease;
     position: relative;
 }
@@ -35,13 +35,13 @@
     background-color: #003366;
 }
 .main-navbar .btn-login{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     letter-spacing: 2px;
     color: #fff;
     background-color: #003366;
     border-radius: 5px;
-    padding: 8px 20px;
+    padding: 10px 20px;
     margin-left: 20px;
     transition: color 0.5s ease,background-color 0.5s ease;
 }
@@ -65,7 +65,7 @@
     width: 100%;
     text-align: center;
     color: #fff;
-    padding: 12px 0px;
+    padding: 15px 0px;
     border-bottom: 1px solid #151515;
     transition: background-color 0.5s ease;
 }
@@ -100,12 +100,11 @@
         flex-direction: column;
         width: 100%;
         background: #d80011;
-        padding-top: 65px;
         position: absolute;
-        top: 0px;
+        top: 100%;
         left: 0px;
         z-index: -1;
-        transform: translateY(-100%);
+        transform: translateY(-120%);
         transition: transform 0.5s ease;
     }
     .main-navbar-open{
@@ -117,8 +116,6 @@
         padding: 16px 0px;
     }
     .main-navbar .btn-login{
-        font-size: 20px;
-        font-weight: 400;
         width: 50%;
         text-align: center;
         margin: 20px auto;
